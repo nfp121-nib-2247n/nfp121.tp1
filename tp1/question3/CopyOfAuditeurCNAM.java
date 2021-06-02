@@ -7,7 +7,7 @@ package question3;
  * @author à compléter
  * @see java.lang.String, java.lang.Math
  */
-public class AuditeurCNAM {
+public class CopyOfAuditeurCNAM {
     /** l'attribut nom de chaque auditeur. */
     private String nom;
     /** l'attribut prenom de chaque auditeur. */
@@ -26,7 +26,7 @@ public class AuditeurCNAM {
      * @param matricule
      *            sur la carte d'inscription, près de la photo
      */
-    public AuditeurCNAM(String nom, String prenom, String matricule) {
+    public CopyOfAuditeurCNAM(String nom, String prenom, String matricule) {
         this.nom = nom;
         this.prenom = prenom;
         this.matricule = matricule;
@@ -45,7 +45,7 @@ public class AuditeurCNAM {
      *         homonymes...
      */
     public String login() {
-        return nom.substring(0,6).toLowerCase().replaceAll("-","_"+"_"+nom.charAt(0);// à compléter
+        return nom.substring(0,6).toLowerCase()+"_"+nom.charAt(0);// à compléter
     }
 
     /**

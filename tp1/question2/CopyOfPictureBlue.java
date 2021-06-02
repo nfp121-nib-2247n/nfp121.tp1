@@ -15,16 +15,16 @@ import question1.Triangle;
  * @author Michael Kolling and David J. Barnes
  * @version 1.1 (24 May 2001)
  */
-public class Picture {
+public class CopyOfPictureBlue extends Picture {
     private Square wall;
     private Square window;
     private Triangle roof;
     private Circle sun;
 
     /**
-     * Constructor for objects of class Picture
+     * Constructor for objects of class CopyOfPicture
      */
-    public Picture() {
+    public CopyOfPictureBlue() {
         // nothing to do... instance variables are automatically set to null
     }
 
@@ -50,7 +50,7 @@ public class Picture {
         roof.makeVisible();
 
         sun = new Circle();
-        sun.changeColor("yellow");
+        sun.changeColor("blue");
         sun.moveHorizontal(180);
         sun.moveVertical(-10);
         sun.changeSize(60);
@@ -79,19 +79,7 @@ public class Picture {
             wall.changeColor("red");
             window.changeColor("black");
             roof.changeColor("green");
-            sun.changeColor("yellow");
-        }
-    }
-    
-        public void seCoucherSoleil(String Color) {
-        
-
-        if (Color == "blue") {
-            sun.moveHorizontal(-180);
-            sun.moveVertical(10);
-        } else {
-            sun.moveHorizontal(180);
-            sun.moveVertical(-10);
+            sun.changeColor("blue");
         }
     }
 

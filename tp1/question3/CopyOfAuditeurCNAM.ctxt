@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=AuditeurCNAM
+comment0.target=CopyOfAuditeurCNAM
 comment0.text=\r\n\ NFP121\ TpIntroduction,\ usage\ de\ BlueJ\ et\ du\ "Submitter".\r\n\ \r\n\ @version\ septembre\ 2009\r\n\ @author\ \u00E0\ compl\u00E9ter\r\n\ @see\ java.lang.String,\ java.lang.Math\r\n
 comment1.params=nom\ prenom\ matricule
-comment1.target=AuditeurCNAM(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.target=CopyOfAuditeurCNAM(java.lang.String,\ java.lang.String,\ java.lang.String)
 comment1.text=\r\n\ "Cr\u00E9ation",\ le\ constructeur\ d'un\ auditeur\ avec\ son\ nom,\ son\ pr\u00E9nom\ et\ son\r\n\ matricule.\r\n\ \r\n\ @param\ nom\r\n\ \ \ \ \ \ \ \ \ \ \ \ le\ nom\ de\ l'auditeur\r\n\ @param\ prenom\r\n\ \ \ \ \ \ \ \ \ \ \ \ son\ pr\u00E9nom\r\n\ @param\ matricule\r\n\ \ \ \ \ \ \ \ \ \ \ \ sur\ la\ carte\ d'inscription,\ pr\u00E8s\ de\ la\ photo\r\n
 comment2.params=
 comment2.target=java.lang.String\ login()
